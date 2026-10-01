@@ -130,6 +130,30 @@ app/fast:
 	cd /home/gigu/Projects/rust/FC-506/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/build
 .PHONY : app/fast
 
+Renderer.o: Renderer.cpp.o
+.PHONY : Renderer.o
+
+# target to build an object file
+Renderer.cpp.o:
+	cd /home/gigu/Projects/rust/FC-506/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/Renderer.cpp.o
+.PHONY : Renderer.cpp.o
+
+Renderer.i: Renderer.cpp.i
+.PHONY : Renderer.i
+
+# target to preprocess a source file
+Renderer.cpp.i:
+	cd /home/gigu/Projects/rust/FC-506/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/Renderer.cpp.i
+.PHONY : Renderer.cpp.i
+
+Renderer.s: Renderer.cpp.s
+.PHONY : Renderer.s
+
+# target to generate assembly for a file
+Renderer.cpp.s:
+	cd /home/gigu/Projects/rust/FC-506/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/Renderer.cpp.s
+.PHONY : Renderer.cpp.s
+
 Window.o: Window.cpp.o
 .PHONY : Window.o
 
@@ -211,6 +235,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... app"
+	@echo "... Renderer.o"
+	@echo "... Renderer.i"
+	@echo "... Renderer.s"
 	@echo "... Window.o"
 	@echo "... Window.i"
 	@echo "... Window.s"

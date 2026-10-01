@@ -22,7 +22,7 @@ void InitOpengl::Window::addHint(int hint,int value)
 ErrorOpengl::Error InitOpengl::Window::init()
 {
     // Creates window According to the width,width,name passed by the user.
-    this->windowHandle = glfwCreateWindow(this->width,this->height,windowName.c_str(), NULL, NULL);
+    this->windowHandle = glfwCreateWindow(windowDataHandle.width,windowDataHandle.height,windowDataHandle.windowName.c_str(), NULL, NULL);
     if (this->windowHandle == NULL)
     {
         std::cout << "Failed to create GLFW window" << std::endl;
@@ -39,7 +39,7 @@ ErrorOpengl::Error InitOpengl::Window::init()
         return ErrorOpengl::Error::gLoadFailed;
     }
 
-    glViewport(0, 0, this->width,this->height);
+    glViewport(0, 0, windowDataHandle.width,windowDataHandle.height);
     return ErrorOpengl::Error::Success;
 }
 

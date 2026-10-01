@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.10)
-add_executable(app main.cpp glad.c Window.cpp)
+add_executable(app main.cpp glad.c Window.cpp Renderer.cpp)
 target_include_directories(app PUBLIC include)
 target_link_libraries(app PRIVATE glfw)
 target_compile_options(app PRIVATE -lglfw3 -lGL -lX11 -lpthread -lXrandr -lXi -ldl)

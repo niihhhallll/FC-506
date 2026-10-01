@@ -5,11 +5,31 @@
 void framebuffer_size_callback(int height,int width);
 namespace InitOpengl
 {
+    struct windowData
+    {
+        int height;
+        int width;
+        std::string windowName;
+    };
+
     class Window
     {
+        private:
+            InitOpengl::windowData windowDataHandle;
+
         public:
             // constructor
-            Window(int height,int width,std::string windowName): height(height),width(width),windowName(windowName){glfwInit();};
+            Window(int height_,int width,std::string windowName)
+            {
+             // assigning data's to variables
+             windowDataHandle.height = 100;
+             windowDataHandle.width = width;
+             // @usage: the window's name variable
+             windowDataHandle.windowName = windowName;
+
+             // init the opengl.
+             glfwInit();};
+
             void addHint(int hint,int value);
 
             // init the opengl window;
@@ -31,9 +51,6 @@ namespace InitOpengl
             //variables;
             // @use: public windowHandle object, for using it in other methods and functions
             GLFWwindow* windowHandle;
-        private:
-            int height;
-            int width;
-            std::string windowName;
+
     };
 }

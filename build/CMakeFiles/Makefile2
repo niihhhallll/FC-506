@@ -96,12 +96,12 @@ src/clean: src/CMakeFiles/app.dir/clean
 src/CMakeFiles/app.dir/all:
 	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/depend
 	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/gigu/Projects/rust/FC-506/build/CMakeFiles --progress-num=1,2,3,4 "Built target app"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/gigu/Projects/rust/FC-506/build/CMakeFiles --progress-num=1,2,3,4,5 "Built target app"
 .PHONY : src/CMakeFiles/app.dir/all
 
 # Build rule for subdir invocation for target.
 src/CMakeFiles/app.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/gigu/Projects/rust/FC-506/build/CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/gigu/Projects/rust/FC-506/build/CMakeFiles 5
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/app.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/gigu/Projects/rust/FC-506/build/CMakeFiles 0
 .PHONY : src/CMakeFiles/app.dir/rule
