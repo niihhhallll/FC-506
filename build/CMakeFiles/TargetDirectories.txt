@@ -1,0 +1,5 @@
+/home/gigu/Projects/rust/FC-506/build/CMakeFiles/edit_cache.dir
+/home/gigu/Projects/rust/FC-506/build/CMakeFiles/rebuild_cache.dir
+/home/gigu/Projects/rust/FC-506/build/src/CMakeFiles/app.dir
+/home/gigu/Projects/rust/FC-506/build/src/CMakeFiles/edit_cache.dir
+/home/gigu/Projects/rust/FC-506/build/src/CMakeFiles/rebuild_cache.dir
