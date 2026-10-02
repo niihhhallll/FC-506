@@ -1,7 +1,6 @@
 src/CMakeFiles/app.dir/Window.cpp.o: \
- /home/gigu/Projects/rust/FC-506/src/Window.cpp \
- /usr/include/stdc-predef.h /usr/include/c++/13/iostream \
- /usr/include/c++/13/bits/requires_hosted.h \
+ /home/gigu/Projects/rust/voxel/src/Window.cpp /usr/include/stdc-predef.h \
+ /usr/include/c++/13/iostream /usr/include/c++/13/bits/requires_hosted.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/os_defines.h \
  /usr/include/features.h /usr/include/features-time64.h \
@@ -150,12 +149,12 @@ src/CMakeFiles/app.dir/Window.cpp.o: \
  /usr/include/c++/13/bits/basic_ios.tcc \
  /usr/include/c++/13/bits/ostream.tcc /usr/include/c++/13/istream \
  /usr/include/c++/13/bits/istream.tcc \
- /home/gigu/Projects/rust/FC-506/src/../include/glad/glad.h \
+ /home/gigu/Projects/rust/voxel/src/../include/glad/glad.h \
  /usr/include/KHR/khrplatform.h \
  /usr/lib/gcc/x86_64-linux-gnu/13/include/stdint.h /usr/include/stdint.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-least.h \
- /home/gigu/Projects/rust/FC-506/src/../include/GLFW/glfw3.h \
- /home/gigu/Projects/rust/FC-506/src/../include/Window.h \
- /home/gigu/Projects/rust/FC-506/src/../include/GLFW/glfw3.h \
- /home/gigu/Projects/rust/FC-506/src/../include/Error.h
+ /home/gigu/Projects/rust/voxel/src/../include/GLFW/glfw3.h \
+ /home/gigu/Projects/rust/voxel/src/../include/Window.h \
+ /home/gigu/Projects/rust/voxel/src/../include/GLFW/glfw3.h \
+ /home/gigu/Projects/rust/voxel/src/../include/Error.h

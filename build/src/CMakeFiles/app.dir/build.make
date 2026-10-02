@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/gigu/Projects/rust/FC-506
+CMAKE_SOURCE_DIR = /home/gigu/Projects/rust/voxel
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/gigu/Projects/rust/FC-506/build
+CMAKE_BINARY_DIR = /home/gigu/Projects/rust/voxel/build
 
 # Include any dependencies generated for this target.
 include src/CMakeFiles/app.dir/depend.make
@@ -70,60 +70,60 @@ include src/CMakeFiles/app.dir/progress.make
 include src/CMakeFiles/app.dir/flags.make
 
 src/CMakeFiles/app.dir/main.cpp.o: src/CMakeFiles/app.dir/flags.make
-src/CMakeFiles/app.dir/main.cpp.o: /home/gigu/Projects/rust/FC-506/src/main.cpp
+src/CMakeFiles/app.dir/main.cpp.o: /home/gigu/Projects/rust/voxel/src/main.cpp
 src/CMakeFiles/app.dir/main.cpp.o: src/CMakeFiles/app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gigu/Projects/rust/FC-506/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/CMakeFiles/app.dir/main.cpp.o"
-	cd /home/gigu/Projects/rust/FC-506/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/app.dir/main.cpp.o -MF CMakeFiles/app.dir/main.cpp.o.d -o CMakeFiles/app.dir/main.cpp.o -c /home/gigu/Projects/rust/FC-506/src/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gigu/Projects/rust/voxel/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/CMakeFiles/app.dir/main.cpp.o"
+	cd /home/gigu/Projects/rust/voxel/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/app.dir/main.cpp.o -MF CMakeFiles/app.dir/main.cpp.o.d -o CMakeFiles/app.dir/main.cpp.o -c /home/gigu/Projects/rust/voxel/src/main.cpp
 
 src/CMakeFiles/app.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/app.dir/main.cpp.i"
-	cd /home/gigu/Projects/rust/FC-506/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gigu/Projects/rust/FC-506/src/main.cpp > CMakeFiles/app.dir/main.cpp.i
+	cd /home/gigu/Projects/rust/voxel/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gigu/Projects/rust/voxel/src/main.cpp > CMakeFiles/app.dir/main.cpp.i
 
 src/CMakeFiles/app.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/app.dir/main.cpp.s"
-	cd /home/gigu/Projects/rust/FC-506/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gigu/Projects/rust/FC-506/src/main.cpp -o CMakeFiles/app.dir/main.cpp.s
+	cd /home/gigu/Projects/rust/voxel/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gigu/Projects/rust/voxel/src/main.cpp -o CMakeFiles/app.dir/main.cpp.s
 
 src/CMakeFiles/app.dir/glad.c.o: src/CMakeFiles/app.dir/flags.make
-src/CMakeFiles/app.dir/glad.c.o: /home/gigu/Projects/rust/FC-506/src/glad.c
+src/CMakeFiles/app.dir/glad.c.o: /home/gigu/Projects/rust/voxel/src/glad.c
 src/CMakeFiles/app.dir/glad.c.o: src/CMakeFiles/app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gigu/Projects/rust/FC-506/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object src/CMakeFiles/app.dir/glad.c.o"
-	cd /home/gigu/Projects/rust/FC-506/build/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/app.dir/glad.c.o -MF CMakeFiles/app.dir/glad.c.o.d -o CMakeFiles/app.dir/glad.c.o -c /home/gigu/Projects/rust/FC-506/src/glad.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gigu/Projects/rust/voxel/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object src/CMakeFiles/app.dir/glad.c.o"
+	cd /home/gigu/Projects/rust/voxel/build/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/app.dir/glad.c.o -MF CMakeFiles/app.dir/glad.c.o.d -o CMakeFiles/app.dir/glad.c.o -c /home/gigu/Projects/rust/voxel/src/glad.c
 
 src/CMakeFiles/app.dir/glad.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/app.dir/glad.c.i"
-	cd /home/gigu/Projects/rust/FC-506/build/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gigu/Projects/rust/FC-506/src/glad.c > CMakeFiles/app.dir/glad.c.i
+	cd /home/gigu/Projects/rust/voxel/build/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gigu/Projects/rust/voxel/src/glad.c > CMakeFiles/app.dir/glad.c.i
 
 src/CMakeFiles/app.dir/glad.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/app.dir/glad.c.s"
-	cd /home/gigu/Projects/rust/FC-506/build/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gigu/Projects/rust/FC-506/src/glad.c -o CMakeFiles/app.dir/glad.c.s
+	cd /home/gigu/Projects/rust/voxel/build/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gigu/Projects/rust/voxel/src/glad.c -o CMakeFiles/app.dir/glad.c.s
 
 src/CMakeFiles/app.dir/Window.cpp.o: src/CMakeFiles/app.dir/flags.make
-src/CMakeFiles/app.dir/Window.cpp.o: /home/gigu/Projects/rust/FC-506/src/Window.cpp
+src/CMakeFiles/app.dir/Window.cpp.o: /home/gigu/Projects/rust/voxel/src/Window.cpp
 src/CMakeFiles/app.dir/Window.cpp.o: src/CMakeFiles/app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gigu/Projects/rust/FC-506/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object src/CMakeFiles/app.dir/Window.cpp.o"
-	cd /home/gigu/Projects/rust/FC-506/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/app.dir/Window.cpp.o -MF CMakeFiles/app.dir/Window.cpp.o.d -o CMakeFiles/app.dir/Window.cpp.o -c /home/gigu/Projects/rust/FC-506/src/Window.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gigu/Projects/rust/voxel/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object src/CMakeFiles/app.dir/Window.cpp.o"
+	cd /home/gigu/Projects/rust/voxel/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/app.dir/Window.cpp.o -MF CMakeFiles/app.dir/Window.cpp.o.d -o CMakeFiles/app.dir/Window.cpp.o -c /home/gigu/Projects/rust/voxel/src/Window.cpp
 
 src/CMakeFiles/app.dir/Window.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/app.dir/Window.cpp.i"
-	cd /home/gigu/Projects/rust/FC-506/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gigu/Projects/rust/FC-506/src/Window.cpp > CMakeFiles/app.dir/Window.cpp.i
+	cd /home/gigu/Projects/rust/voxel/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gigu/Projects/rust/voxel/src/Window.cpp > CMakeFiles/app.dir/Window.cpp.i
 
 src/CMakeFiles/app.dir/Window.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/app.dir/Window.cpp.s"
-	cd /home/gigu/Projects/rust/FC-506/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gigu/Projects/rust/FC-506/src/Window.cpp -o CMakeFiles/app.dir/Window.cpp.s
+	cd /home/gigu/Projects/rust/voxel/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gigu/Projects/rust/voxel/src/Window.cpp -o CMakeFiles/app.dir/Window.cpp.s
 
 src/CMakeFiles/app.dir/Renderer.cpp.o: src/CMakeFiles/app.dir/flags.make
-src/CMakeFiles/app.dir/Renderer.cpp.o: /home/gigu/Projects/rust/FC-506/src/Renderer.cpp
+src/CMakeFiles/app.dir/Renderer.cpp.o: /home/gigu/Projects/rust/voxel/src/Renderer.cpp
 src/CMakeFiles/app.dir/Renderer.cpp.o: src/CMakeFiles/app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gigu/Projects/rust/FC-506/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object src/CMakeFiles/app.dir/Renderer.cpp.o"
-	cd /home/gigu/Projects/rust/FC-506/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/app.dir/Renderer.cpp.o -MF CMakeFiles/app.dir/Renderer.cpp.o.d -o CMakeFiles/app.dir/Renderer.cpp.o -c /home/gigu/Projects/rust/FC-506/src/Renderer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gigu/Projects/rust/voxel/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object src/CMakeFiles/app.dir/Renderer.cpp.o"
+	cd /home/gigu/Projects/rust/voxel/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/app.dir/Renderer.cpp.o -MF CMakeFiles/app.dir/Renderer.cpp.o.d -o CMakeFiles/app.dir/Renderer.cpp.o -c /home/gigu/Projects/rust/voxel/src/Renderer.cpp
 
 src/CMakeFiles/app.dir/Renderer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/app.dir/Renderer.cpp.i"
-	cd /home/gigu/Projects/rust/FC-506/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gigu/Projects/rust/FC-506/src/Renderer.cpp > CMakeFiles/app.dir/Renderer.cpp.i
+	cd /home/gigu/Projects/rust/voxel/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gigu/Projects/rust/voxel/src/Renderer.cpp > CMakeFiles/app.dir/Renderer.cpp.i
 
 src/CMakeFiles/app.dir/Renderer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/app.dir/Renderer.cpp.s"
-	cd /home/gigu/Projects/rust/FC-506/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gigu/Projects/rust/FC-506/src/Renderer.cpp -o CMakeFiles/app.dir/Renderer.cpp.s
+	cd /home/gigu/Projects/rust/voxel/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gigu/Projects/rust/voxel/src/Renderer.cpp -o CMakeFiles/app.dir/Renderer.cpp.s
 
 # Object files for target app
 app_OBJECTS = \
@@ -141,18 +141,18 @@ src/app: src/CMakeFiles/app.dir/Window.cpp.o
 src/app: src/CMakeFiles/app.dir/Renderer.cpp.o
 src/app: src/CMakeFiles/app.dir/build.make
 src/app: src/CMakeFiles/app.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/gigu/Projects/rust/FC-506/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable app"
-	cd /home/gigu/Projects/rust/FC-506/build/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/app.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/gigu/Projects/rust/voxel/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable app"
+	cd /home/gigu/Projects/rust/voxel/build/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/app.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 src/CMakeFiles/app.dir/build: src/app
 .PHONY : src/CMakeFiles/app.dir/build
 
 src/CMakeFiles/app.dir/clean:
-	cd /home/gigu/Projects/rust/FC-506/build/src && $(CMAKE_COMMAND) -P CMakeFiles/app.dir/cmake_clean.cmake
+	cd /home/gigu/Projects/rust/voxel/build/src && $(CMAKE_COMMAND) -P CMakeFiles/app.dir/cmake_clean.cmake
 .PHONY : src/CMakeFiles/app.dir/clean
 
 src/CMakeFiles/app.dir/depend:
-	cd /home/gigu/Projects/rust/FC-506/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/gigu/Projects/rust/FC-506 /home/gigu/Projects/rust/FC-506/src /home/gigu/Projects/rust/FC-506/build /home/gigu/Projects/rust/FC-506/build/src /home/gigu/Projects/rust/FC-506/build/src/CMakeFiles/app.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/gigu/Projects/rust/voxel/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/gigu/Projects/rust/voxel /home/gigu/Projects/rust/voxel/src /home/gigu/Projects/rust/voxel/build /home/gigu/Projects/rust/voxel/build/src /home/gigu/Projects/rust/voxel/build/src/CMakeFiles/app.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : src/CMakeFiles/app.dir/depend
 

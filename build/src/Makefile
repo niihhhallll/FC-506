@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/gigu/Projects/rust/FC-506
+CMAKE_SOURCE_DIR = /home/gigu/Projects/rust/voxel
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/gigu/Projects/rust/FC-506/build
+CMAKE_BINARY_DIR = /home/gigu/Projects/rust/voxel/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,14 +87,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/gigu/Projects/rust/FC-506/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/gigu/Projects/rust/FC-506/build/CMakeFiles /home/gigu/Projects/rust/FC-506/build/src//CMakeFiles/progress.marks
-	cd /home/gigu/Projects/rust/FC-506/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/gigu/Projects/rust/FC-506/build/CMakeFiles 0
+	cd /home/gigu/Projects/rust/voxel/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/gigu/Projects/rust/voxel/build/CMakeFiles /home/gigu/Projects/rust/voxel/build/src//CMakeFiles/progress.marks
+	cd /home/gigu/Projects/rust/voxel/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/gigu/Projects/rust/voxel/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/gigu/Projects/rust/FC-506/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/clean
+	cd /home/gigu/Projects/rust/voxel/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/clean
 .PHONY : clean
 
 # The main clean target
@@ -103,22 +103,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/gigu/Projects/rust/FC-506/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/preinstall
+	cd /home/gigu/Projects/rust/voxel/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/gigu/Projects/rust/FC-506/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/preinstall
+	cd /home/gigu/Projects/rust/voxel/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/gigu/Projects/rust/FC-506/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/gigu/Projects/rust/voxel/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 src/CMakeFiles/app.dir/rule:
-	cd /home/gigu/Projects/rust/FC-506/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/app.dir/rule
+	cd /home/gigu/Projects/rust/voxel/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/app.dir/rule
 .PHONY : src/CMakeFiles/app.dir/rule
 
 # Convenience name for target.
@@ -127,7 +127,7 @@ app: src/CMakeFiles/app.dir/rule
 
 # fast build rule for target.
 app/fast:
-	cd /home/gigu/Projects/rust/FC-506/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/build
+	cd /home/gigu/Projects/rust/voxel/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/build
 .PHONY : app/fast
 
 Renderer.o: Renderer.cpp.o
@@ -135,7 +135,7 @@ Renderer.o: Renderer.cpp.o
 
 # target to build an object file
 Renderer.cpp.o:
-	cd /home/gigu/Projects/rust/FC-506/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/Renderer.cpp.o
+	cd /home/gigu/Projects/rust/voxel/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/Renderer.cpp.o
 .PHONY : Renderer.cpp.o
 
 Renderer.i: Renderer.cpp.i
@@ -143,7 +143,7 @@ Renderer.i: Renderer.cpp.i
 
 # target to preprocess a source file
 Renderer.cpp.i:
-	cd /home/gigu/Projects/rust/FC-506/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/Renderer.cpp.i
+	cd /home/gigu/Projects/rust/voxel/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/Renderer.cpp.i
 .PHONY : Renderer.cpp.i
 
 Renderer.s: Renderer.cpp.s
@@ -151,7 +151,7 @@ Renderer.s: Renderer.cpp.s
 
 # target to generate assembly for a file
 Renderer.cpp.s:
-	cd /home/gigu/Projects/rust/FC-506/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/Renderer.cpp.s
+	cd /home/gigu/Projects/rust/voxel/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/Renderer.cpp.s
 .PHONY : Renderer.cpp.s
 
 Window.o: Window.cpp.o
@@ -159,7 +159,7 @@ Window.o: Window.cpp.o
 
 # target to build an object file
 Window.cpp.o:
-	cd /home/gigu/Projects/rust/FC-506/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/Window.cpp.o
+	cd /home/gigu/Projects/rust/voxel/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/Window.cpp.o
 .PHONY : Window.cpp.o
 
 Window.i: Window.cpp.i
@@ -167,7 +167,7 @@ Window.i: Window.cpp.i
 
 # target to preprocess a source file
 Window.cpp.i:
-	cd /home/gigu/Projects/rust/FC-506/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/Window.cpp.i
+	cd /home/gigu/Projects/rust/voxel/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/Window.cpp.i
 .PHONY : Window.cpp.i
 
 Window.s: Window.cpp.s
@@ -175,7 +175,7 @@ Window.s: Window.cpp.s
 
 # target to generate assembly for a file
 Window.cpp.s:
-	cd /home/gigu/Projects/rust/FC-506/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/Window.cpp.s
+	cd /home/gigu/Projects/rust/voxel/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/Window.cpp.s
 .PHONY : Window.cpp.s
 
 glad.o: glad.c.o
@@ -183,7 +183,7 @@ glad.o: glad.c.o
 
 # target to build an object file
 glad.c.o:
-	cd /home/gigu/Projects/rust/FC-506/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/glad.c.o
+	cd /home/gigu/Projects/rust/voxel/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/glad.c.o
 .PHONY : glad.c.o
 
 glad.i: glad.c.i
@@ -191,7 +191,7 @@ glad.i: glad.c.i
 
 # target to preprocess a source file
 glad.c.i:
-	cd /home/gigu/Projects/rust/FC-506/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/glad.c.i
+	cd /home/gigu/Projects/rust/voxel/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/glad.c.i
 .PHONY : glad.c.i
 
 glad.s: glad.c.s
@@ -199,7 +199,7 @@ glad.s: glad.c.s
 
 # target to generate assembly for a file
 glad.c.s:
-	cd /home/gigu/Projects/rust/FC-506/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/glad.c.s
+	cd /home/gigu/Projects/rust/voxel/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/glad.c.s
 .PHONY : glad.c.s
 
 main.o: main.cpp.o
@@ -207,7 +207,7 @@ main.o: main.cpp.o
 
 # target to build an object file
 main.cpp.o:
-	cd /home/gigu/Projects/rust/FC-506/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/main.cpp.o
+	cd /home/gigu/Projects/rust/voxel/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/main.cpp.o
 .PHONY : main.cpp.o
 
 main.i: main.cpp.i
@@ -215,7 +215,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	cd /home/gigu/Projects/rust/FC-506/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/main.cpp.i
+	cd /home/gigu/Projects/rust/voxel/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -223,7 +223,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	cd /home/gigu/Projects/rust/FC-506/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/main.cpp.s
+	cd /home/gigu/Projects/rust/voxel/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 # Help Target
@@ -258,6 +258,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/gigu/Projects/rust/FC-506/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/gigu/Projects/rust/voxel/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

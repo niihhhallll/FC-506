@@ -5,13 +5,13 @@
 # compile CXX with /usr/bin/c++
 C_DEFINES = 
 
-C_INCLUDES = -I/home/gigu/Projects/rust/FC-506/src/include
+C_INCLUDES = -I/home/gigu/Projects/rust/voxel/src/include
 
-C_FLAGS = -g -lglfw3 -lGL -lX11 -lpthread -lXrandr -lXi -ldl
+C_FLAGS = -lglfw3 -lGL -lX11 -lpthread -lXrandr -lXi -ldl
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/gigu/Projects/rust/FC-506/src/include
+CXX_INCLUDES = -I/home/gigu/Projects/rust/voxel/src/include
 
-CXX_FLAGS = -g -lglfw3 -lGL -lX11 -lpthread -lXrandr -lXi -ldl
+CXX_FLAGS = -lglfw3 -lGL -lX11 -lpthread -lXrandr -lXi -ldl
 

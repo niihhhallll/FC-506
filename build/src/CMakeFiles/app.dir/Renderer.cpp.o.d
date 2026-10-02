@@ -1,8 +1,8 @@
 src/CMakeFiles/app.dir/Renderer.cpp.o: \
- /home/gigu/Projects/rust/FC-506/src/Renderer.cpp \
+ /home/gigu/Projects/rust/voxel/src/Renderer.cpp \
  /usr/include/stdc-predef.h \
- /home/gigu/Projects/rust/FC-506/src/../include/Renderer.h \
- /home/gigu/Projects/rust/FC-506/src/../include/glad/glad.h \
+ /home/gigu/Projects/rust/voxel/src/../include/Renderer.h \
+ /home/gigu/Projects/rust/voxel/src/../include/glad/glad.h \
  /usr/include/KHR/khrplatform.h \
  /usr/lib/gcc/x86_64-linux-gnu/13/include/stdint.h /usr/include/stdint.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
