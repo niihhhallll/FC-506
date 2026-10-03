@@ -154,6 +154,30 @@ Renderer.cpp.s:
 	cd /home/gigu/Projects/rust/voxel/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/Renderer.cpp.s
 .PHONY : Renderer.cpp.s
 
+Shader.o: Shader.cpp.o
+.PHONY : Shader.o
+
+# target to build an object file
+Shader.cpp.o:
+	cd /home/gigu/Projects/rust/voxel/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/Shader.cpp.o
+.PHONY : Shader.cpp.o
+
+Shader.i: Shader.cpp.i
+.PHONY : Shader.i
+
+# target to preprocess a source file
+Shader.cpp.i:
+	cd /home/gigu/Projects/rust/voxel/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/Shader.cpp.i
+.PHONY : Shader.cpp.i
+
+Shader.s: Shader.cpp.s
+.PHONY : Shader.s
+
+# target to generate assembly for a file
+Shader.cpp.s:
+	cd /home/gigu/Projects/rust/voxel/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/Shader.cpp.s
+.PHONY : Shader.cpp.s
+
 Window.o: Window.cpp.o
 .PHONY : Window.o
 
@@ -238,6 +262,9 @@ help:
 	@echo "... Renderer.o"
 	@echo "... Renderer.i"
 	@echo "... Renderer.s"
+	@echo "... Shader.o"
+	@echo "... Shader.i"
+	@echo "... Shader.s"
 	@echo "... Window.o"
 	@echo "... Window.i"
 	@echo "... Window.s"

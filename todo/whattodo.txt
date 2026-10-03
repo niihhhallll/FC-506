@@ -1,0 +1,12 @@
+how to make the position into ndc
+
+make a struct maybe idk ??
+we need to find a way to like turn the normal position into ndc positon and pass it to the gpu
+
+mhm okay we got it
+for the top corner in the y axis do
+
+1, top corner y - 50
+2, bottom-left x - 50, y + 50
+
+we can use glm::ortho after getting the position
